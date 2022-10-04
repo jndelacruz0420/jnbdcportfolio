@@ -950,7 +950,8 @@ body.offcanvas {
       padding: 20px;
       display: block;
       position: relative;
-      height: 300px; }
+      height: 300px;
+      text-align: center; }
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
