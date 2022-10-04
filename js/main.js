@@ -311,6 +311,5 @@
 
 $(".project").click(function() {
 	window.location = $(this).find("a").attr("href");
-	window.open = $(this).find("a").attr("target"); 
 	return false;
 });
