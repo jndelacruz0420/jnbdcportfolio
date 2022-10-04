@@ -313,3 +313,7 @@ $(".project").click(function() {
 	window.location = $(this).find("a").attr("href");
 	return false;
 });
+
+$('.project').each(function(){
+	$(this).attr('target', '_BLANK');
+});
