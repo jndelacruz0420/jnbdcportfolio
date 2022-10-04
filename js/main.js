@@ -310,6 +310,7 @@
 }());
 
 $(".project").click(function() {
-	window.location = $(this).find("a").attr("href"); 
+	window.location = $(this).find("a").attr("href");
+	window.location = $(this).find("a").attr("target"); 
 	return false;
   });
