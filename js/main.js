@@ -311,12 +311,6 @@
 
 $(".project").click(function() {
 	window.location = $(this).find("a").attr("href");
-	window.location = $(this).find("a").attr("target"); 
+	window.open = $(this).find("a").attr("target"); 
 	return false;
-  });
-
-$(".project").each(
-	function(i,e){
-	   window.open(e, '_blank');
-	}
-);
+});
